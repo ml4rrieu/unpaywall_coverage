@@ -19,8 +19,8 @@ Index | Scopus 2014-2017
 Scopus + Unpaywall	| 2855  / 5597 = 51.01%
 Scopus + Unpaywall + institutionnal repository (HAL)| 2871  / 5597 = 51.29%
 
-
-However, after a manal verification only 2 publications were really in that case <br/><br/>
+<br/><br/>
+However, after a manual verification only 2 publications were really in that case 
 DOI | Problem
 ------------ | -------------
 10.1016/j.respe.2017.03.133	| embargo forever
