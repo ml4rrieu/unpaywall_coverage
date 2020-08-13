@@ -1,6 +1,6 @@
 ## Context
 This is a pursuit of a work made by Aaron Tay [_Open Access Indicators and the importance of optimising your Institutional repository for discovery in Unpaywal_](https://musingsaboutlibrarianship.blogspot.com/2020/08/open-access-indicators-and-importance.html) <br/>
-In 2020 Open Access at institution level are growing  ([see for example CWTS Leiden Ranking 2020](https://www.leidenranking.com/ranking/2020/list) ). Most of them are using [unpaywall](unpaywall.org) to know if a publication is open access or not. <br/>
+In 2020 Open Access indicators at institution level are growing  ([see for example CWTS Leiden Ranking 2020](https://www.leidenranking.com/ranking/2020/list) ). Most of them are using [unpaywall](unpaywall.org) to know if a publication is open access or not. <br/>
 The goal here is to represent the limits of unpaywall. 
 
 
