@@ -1,9 +1,14 @@
+'''
+see also this code 
+https://gitlab.com/Cthulhus_Queen/barometre_scienceouverte_universitedelorraine/-/tree/master
+'''
+
 import pandas as pd
 import requests, json
 
 def get_upw_info(doi):
 	#print(f"https://api.oadoi.org/v2/{doi}?email=m@larri.eu")
-	r = requests.get(f"https://api.oadoi.org/v2/{doi}?email=m@larri.eu")
+	r = requests.get(f"https://api.oadoi.org/v2/{doi}?email=your_email")
 	pb = ""
 
 	try : 
