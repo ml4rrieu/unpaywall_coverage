@@ -14,7 +14,11 @@ Steps :
 ## Results
 #### 1. Reproducing Aaron works : Where unpaywall say "this publications are closed" can I find an open access version in my Institutionnal Repository ? 
 At first, 16 publications were concerned<br/>
-![](https://pbs.twimg.com/media/Ee52FmGWAAAApzF?format=png&name=small)
+Index | Scopus 2014-2017
+------------ | -------------
+Scopus + Unpaywall	| 2855  / 5597 = 51.01%
+Scopus + Unpaywall + institutionnal repository (HAL)| 2871  / 5597 = 51.29%
+
 
 However, after a manal verification only 2 publications were really in that case <br/><br/>
 DOI | Problem
@@ -36,7 +40,7 @@ DOI | Problem
 10.1016/j.ijepes.2014.07.064	| upw missed it
 10.1038/nature23266	| upw missed it
 
-#### 2. How much pubications cannot be treated by unpaywall ? 
+#### 2. How much pubications cannot be treated with unpaywall ? 
 (upw can treat 'only' publication with a Crossref DOI)<br/>
 From the 5597 publications finded in Scopus 4% cannot be treated with Unpaywall<br/>
 
