@@ -1,5 +1,5 @@
 '''
-see also this code 
+this code inspired me also  :
 https://gitlab.com/Cthulhus_Queen/barometre_scienceouverte_universitedelorraine/-/tree/master
 '''
 
@@ -7,7 +7,7 @@ import pandas as pd
 import requests, json
 
 def get_upw_info(doi):
-	#print(f"https://api.oadoi.org/v2/{doi}?email=m@larri.eu")
+	#print(f"https://api.oadoi.org/v2/{doi}?email=your_email")
 	r = requests.get(f"https://api.oadoi.org/v2/{doi}?email=your_email")
 	pb = ""
 
@@ -35,9 +35,9 @@ def get_upw_info(doi):
 
 
 
-separate_df = (pd.read_csv(str(y)+"_scopus.csv") for y in range(2014,2018))
+separate_df = (pd.read_csv(str(y)+"_scopus.csv") for y in range(2014,2018)) # my files are named "2014_scopus.csv", "2015_scopus.csv"
 df = pd.concat(separate_df, ignore_index=True)
-print(f"nb of publications\t{len(df)}\n")
+print(f"nb of publications\t{ len(df) }\n")
 
 #convert DOI column to string
 df['DOI'] = df['DOI'].astype(str) 
@@ -50,13 +50,11 @@ for nb, row in enumerate(df.itertuples()):
 	#upw_info = get_upw_info("10.4324/9781315079042-8")
 	#upw_info = get_upw_info("10.13154/tosc.v2020.iS1.262-294")
 			
-	print(row.DOI)
 	upw_info = get_upw_info(row.DOI)
 
 	for field in upw_info:
 		df.at[row.Index, field] = upw_info[field]
 
-	if nb > 5600 : break
 	if nb % 50 == 0 : 
 		print(f">> {round(nb/len(df)*100,2)} % treated")
 
