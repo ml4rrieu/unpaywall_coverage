@@ -1,8 +1,6 @@
 import pandas as pd
 import requests, json
 
-
-## first step add hal value
 df = pd.read_csv("scopus_upw.csv")
 print(f"{len(df)} publications")
 df_not_oa = df.loc[df['is_oa'] == 0]
@@ -41,4 +39,3 @@ df.to_csv("scopus_upw_hal.csv",index=False)
 if halDoiError : 
 	print('\n--halDoiError')
 	[print(doi) for doi in halDoiError]
-	print('\n\n')
