@@ -12,7 +12,7 @@ Steps :
 
 
 ## Results
-#### 1. Reproducing Aaron works : Where unpaywall say "this publications are closed" can I find an open access version in my Institutionnal Repository ? 
+#### 1. Reproducing Aaron works : For a publication mark as closed in unpaywall, can I find an open access version in my institutional repository ?
 At first, 16 publications were concerned<br/>
 Index | Scopus 2014-2017
 ------------ | -------------
