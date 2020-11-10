@@ -14,7 +14,7 @@ Steps :
 ## Results
 #### 1. Reproducing Aaron works : For a publication mark as closed in unpaywall, can I find an open access version in my institutional repository ?
 At first, 16 publications were concerned<br/>
-Index | Scopus 2014-2017
+Source 2014-2017|  % of open access
 ------------ | -------------
 Scopus + Unpaywall	| 2855  / 5597 = 51.01%
 Scopus + Unpaywall + institutionnal repository (HAL)| 2871  / 5597 = 51.29%
