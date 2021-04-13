@@ -1,3 +1,6 @@
+## Highlight
+the open access detection made by Unpaywall is highly reliable (> 99 %).
+
 ## Context
 This is a pursuit of a work made by Aaron Tay [_Open Access Indicators and the importance of optimising your Institutional repository for discovery in Unpaywal_](https://musingsaboutlibrarianship.blogspot.com/2020/08/open-access-indicators-and-importance.html) <br/>
 In 2020 Open Access indicators at institution level are growing  ([see for example CWTS Leiden Ranking 2020](https://www.leidenranking.com/ranking/2020/list) ). Most of them are using [Unpaywall](http://unpaywall.org/) to know if a publication is open access or not. <br/>
@@ -41,7 +44,7 @@ DOI | Problem
 10.1038/nature23266	| upw missed it
 
 #### 2. How much pubications cannot be treated with unpaywall ? 
-(Unpaywall can treat publications with a Crossref DOI , cf. [Unpaywall FAQ](https://support.unpaywall.org/support/solutions/articles/44001900286-which-dois-does-unpaywall-cover-)<br/>
+Unpaywall can treat publications with a Crossref DOI, cf. [Unpaywall FAQ](https://support.unpaywall.org/support/solutions/articles/44001900286-which-dois-does-unpaywall-cover-).<br/>
 From the 5597 publications finded in Scopus 4% cannot be treated with Unpaywall<br/>
 
 ![](https://pbs.twimg.com/media/EfNzPuXWoAIO6OE?format=jpg&name=medium)
